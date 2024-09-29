@@ -1,0 +1,178 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nitro-header__top-nav {
+  text-decoration: none;
+  color: #393939;
+}
+
+nav img {
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+
+.nitro-header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0.2rem;
+  background-color: #fff0ed;
+  width: 100%;
+}
+
+.nitro-header__links {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0.94rem;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #393939;
+}
+
+h1 a {
+  color: #393939;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-size: 3.7rem;
+  font-weight: 300;
+  color: #393939;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nitro-header__top-nav {
+  text-decoration: none;
+}
+
+/* Background image for navigation */
+.menu__container {
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/images/coffee-circle.jpg);
+  width: 100%;
+  height: 72vh;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.menu__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 18.75rem;
+  height: 12.5rem;
+  background-color: #393939;
+  color: white;
+  justify-content: center;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.menu__borders {
+  border: 5px solid #5bacc3;
+  z-index: 1;
+  width: 18.75rem;
+  height: 12.5rem;
+  position: absolute;
+  top: -0.875rem;
+  left: -0.875rem;
+}
+
+.menu__main {
+  position: relative;
+}
+
+/* Middle grey navigation bar for menu options */
+.menu__options {
+  text-align: center;
+  width: 100%;
+  height: 3.75rem;
+  background-color: #393939;
+  display: inline-block;
+}
+
+.menu__options a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu__category-item {
+  display: inline-block;
+  color: white;
+  border-left: 0.25rem solid #5bacc3;
+  padding: 0.4rem 0.7rem 0.4rem 1.6rem;
+}
+
+.shop-now {
+  color: #5bacc3;
+}
+
+.item {
+  background-color: #fff0ed;
+  padding: 0.9375rem 29rem;
+}
+
+.items {
+  padding: 0.9375rem 29rem;
+}
+
+/* Menu Items in Detail*/
+.item__food {
+  text-align: center;
+  color: #393939;
+}
+
+.item__food-type {
+  font-size: 1.9rem;
+  font-weight: 300;
+  text-align: center;
+  color: #393939;
+}
+
+.item__description {
+  font-style: italic;
+  font-size: 1.13rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0.26rem;
+  color: #393939;
+}
+
+.item__price {
+  text-align: center;
+  color: #5bacc3;
+  font-size: 1.13rem;
+  font-weight: 400;
+}/*# sourceMappingURL=menu.css.map */

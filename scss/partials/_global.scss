@@ -1,0 +1,72 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nitro-header__top-nav {
+  text-decoration: none;
+  color: $text-graphite;
+}
+
+nav img {
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+
+.nitro-header {
+  @include flex-center;
+  text-align: left;
+  padding: 0.2rem;
+  background-color: $background-pink;
+  width: 100%;
+}
+
+.nitro-header__links {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0.94rem;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: $text-graphite;
+}
+
+h1 a {
+  color: $text-graphite;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-size: 3.7rem;
+  font-weight: 300;
+  color: $text-graphite;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

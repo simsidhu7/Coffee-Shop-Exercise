@@ -73,7 +73,6 @@ li {
   text-decoration: none;
 }
 
-/* Background image for navigation */
 .menu__container {
   display: flex;
   align-items: center;
@@ -112,7 +111,6 @@ li {
   position: relative;
 }
 
-/* Middle grey navigation bar for menu options */
 .menu__options {
   text-align: center;
   width: 100%;
@@ -148,7 +146,6 @@ li {
   padding: 0.9375rem 29rem;
 }
 
-/* Menu Items in Detail*/
 .item__food {
   text-align: center;
   color: #393939;
